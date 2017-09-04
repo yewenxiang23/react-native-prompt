@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({
   dialog: {
     flex: 1,
-    alignItems: 'center'
+    alignItems: 'center',
   },
   dialogOverlay: {
     backgroundColor: 'rgba(0, 0, 0, 0.8)',
@@ -29,13 +29,14 @@ export default StyleSheet.create({
   },
   dialogTitleText: {
     fontSize: 18,
-    fontWeight: '600'
+    fontWeight: '300',
+    textAlign:'center',
   },
   dialogBody: {
     paddingHorizontal: 10
   },
   dialogInput: {
-    height: 50,
+    height: 40,
     fontSize: 18
   },
   dialogFooter: {
